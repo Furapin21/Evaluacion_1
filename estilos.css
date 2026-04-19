@@ -48,6 +48,59 @@ img {
   border-radius: 50%;
 }
 
+.seccion-sobre-mi {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-top: 20px;
+}
 
+.titulo-sobre-mi {
+  color: rgb(3, 3, 255);
+  margin-bottom: 10px;
+  padding: 0 20px;
+  padding-top: 20px;
+  text-align: right;
+  text-decoration: underline;
+}
 
+.biografia {
+  flex: 1;
+  padding: 15px;
+}
 
+.biografia p {
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.datos {
+  flex: 1;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 1px;
+  background: white;
+  box-sizing: border-box;
+  text-align: right;
+  border-width: 10px;
+
+}
+
+.datos h3 {
+  color: blue;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.datos {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.cita {
+  background: #c0dbdf;
+  border-left: 4px solid #34b9b3;
+  padding: 10px;
+  margin-top: 20px;
+}
