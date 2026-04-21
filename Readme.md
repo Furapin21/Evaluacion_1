@@ -10,7 +10,7 @@ caracteristicas
 - Formulario de contacto
 
 Capturas de pantalla:
-![Navbar y header](./Media/Navbar_header.png)
+![Navbar y header](./Media/navbar_header.png)
 ![sobre mi](./Media/Sobre_mi.png)
 ![Habilidades, Competencias tecnicas y ruta de aprendizaje](./Media/Habilidades_competencias_tecnicas_ruta_de_aprendizaje.png)
 ![Proyectos](./Media/Proyectos.png)
