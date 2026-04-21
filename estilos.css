@@ -269,3 +269,148 @@ figcaption p {
   font-size: 14px;
   color: #4b5563;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  padding: 40px;
+}
+
+.contacto {
+  max-width: 900px;
+  margin: auto;
+}
+
+.contacto h2 {
+  text-align: center;
+  color: #1f3b64;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.contenedor-contacto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #374151;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1f3b64;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #163052;
+}
+
+.info {
+  background: #e5e7eb;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.info h3 {
+  margin-bottom: 15px;
+  color: #1f3b64;
+}
+
+.info p {
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_de_abajo {
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.footer-right a {
+  background: #2f4b75;
+  color: white;
+  text-decoration: none;
+  margin-left: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  transition: background 0.2s;
+}
+
+.footer-right a:hover {
+  background: #3b5c8a;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #3b5c8a;
+  margin: 15px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #cbd5e1;
+}
