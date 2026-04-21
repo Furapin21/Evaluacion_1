@@ -10,11 +10,11 @@ caracteristicas
 - Formulario de contacto
 
 Capturas de pantalla:
-![Navbar y header](./media/Navbar_header.png)
-![sobre mi](./media/Sobre_mi.png)
-![Habilidades, Competencias tecnicas y ruta de aprendizaje](./media/Habilidades_competencias_tecnicas_ruta_de_aprendizaje.png)
-![Proyectos](./media/Proyectos.png)
-![contacto y footer](./media/contacto_footer.png)
+![Navbar y header](./Media/Navbar_header.png)
+![sobre mi](./Media/Sobre_mi.png)
+![Habilidades, Competencias tecnicas y ruta de aprendizaje](./Media/Habilidades_competencias_tecnicas_ruta_de_aprendizaje.png)
+![Proyectos](./Media/Proyectos.png)
+![contacto y footer](./Media/contacto_footer.png)
 
 instrucciones de instalacion directo a visual studio code:
 
