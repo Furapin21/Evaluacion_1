@@ -14,7 +14,7 @@ Capturas de pantalla:
 ![sobre mi](./Media/Sobre_mi.png)
 ![Habilidades, Competencias tecnicas y ruta de aprendizaje](./Media/Habilidades_competencias_tecnicas_ruta_de_aprendizaje.png)
 ![Proyectos](./Media/Proyectos.png)
-![contacto y footer](./Media/contacto_footer.png)
+![contacto y footer](./Media/Contacto_footer.png)
 
 instrucciones de instalacion directo a visual studio code:
 
