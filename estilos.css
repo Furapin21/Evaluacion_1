@@ -4,7 +4,7 @@
   align-items: center;
   background: #2c3e50;
   padding: 15px 20px;
-  color: rgb(58, 6, 245);
+  color: rgb(253, 252, 255);
 }
 .logo {
   font-size: 24px;
@@ -47,6 +47,19 @@ img {
   height: auto;
   border-radius: 50%;
 }
+.sobremi {
+  text-align: center;
+  color: rgb(3, 3, 255);
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.sobre_mi {
+  text-align: center;
+  color: #1f3b64;
+  font-size: 32px;
+  margin-top: 40px;
+}
 
 .seccion-sobre-mi {
   display: flex;
@@ -59,15 +72,6 @@ h2 {
   color: #1f3b64;
   font-size: 28px;
   margin-bottom: 20px;
-}
-.titulo-sobre-mi {
-  color: rgb(3, 3, 255);
-  font-size: 30px;
-  margin-bottom: 10px;
-  padding: 0 20px;
-  padding-top: 20px;
-  text-align: right;
-  text-decoration: underline;
 }
 
 .biografia {
@@ -116,8 +120,8 @@ h2 {
   margin-bottom: 10px;
   padding: 0 20px;
   padding-top: 20px;
-  text-align: right;
-  text-decoration: underline;
+  text-align: center;
+
 }
 table {
   width: 100%;
@@ -167,11 +171,6 @@ tbody tr:nth-child(even) {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.proyectos {
-  margin-top: 60px;
-  text-align: center;
-}
-
 .subtitulo {
   color: #6b7280;
   margin-bottom: 30px;
@@ -210,13 +209,14 @@ tbody tr:nth-child(even) {
 }
 
 .tarjeta_proyecto {
-  max-width: 300px;
-  width: 100%;
-  margin: 0 auto; 
+   background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .tarjeta_proyecto:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
 
 .tarjeta_proyecto a {
@@ -283,9 +283,8 @@ body {
 
 .contacto h2 {
   text-align: center;
-  color: #1f3b64;
+  color: rgb(3, 3, 255);
 }
-
 .subtitulo {
   text-align: center;
   color: #6b7280;
@@ -317,10 +316,14 @@ label {
 }
 
 input, select, textarea {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #d1d5db;
-  font-size: 14px;
+  border: 1px solid #e5e7eb;
+  transition: 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--color-secundario);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
 }
 
 textarea {
